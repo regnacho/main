@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReactivePrism.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:ReactivePrism.InteractionRequestExtensions">
+            <summary>
+            InteractionRequest extensions.
+            </summary>
+        </member>
+        <member name="M:ReactivePrism.InteractionRequestExtensions.RaiseAsObservable``1(Microsoft.Practices.Prism.Interactivity.InteractionRequest.InteractionRequest{``0},``0)">
+            <summary>
+            Convert Raise event into IObservable.
+            </summary>
+            <typeparam name="T">INotification object</typeparam>
+            <param name="self">InteractinRequest</param>
+            <param name="context">INotification object</param>
+            <returns>IO</returns>
+        </member>
+        <member name="M:ReactivePrism.InteractionRequestExtensions.RaiseAsync``1(Microsoft.Practices.Prism.Interactivity.InteractionRequest.InteractionRequest{``0},``0)">
+            <summary>
+            Convert Raise event into Task.
+            </summary>
+            <typeparam name="T">INotification object</typeparam>
+            <param name="self">InteractinRequest</param>
+            <param name="context">INotification object</param>
+            <returns>Task</returns>
+        </member>
+    </members>
+</doc>

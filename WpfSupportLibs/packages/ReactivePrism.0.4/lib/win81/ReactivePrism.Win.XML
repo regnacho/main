@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReactivePrism.Win</name>
+    </assembly>
+    <members>
+        <member name="T:ReactivePrism.InteractionRequestExtensions">
+            <summary>
+            InteractionRequest extensions.
+            </summary>
+        </member>
+        <member name="M:ReactivePrism.InteractionRequestExtensions.RaiseAsObservable``1(Microsoft.Practices.Prism.Interactivity.InteractionRequest.InteractionRequest{``0},``0)">
+            <summary>
+            Convert Raise event into IObservable.
+            </summary>
+            <typeparam name="T">INotification object</typeparam>
+            <param name="self">InteractinRequest</param>
+            <param name="context">INotification object</param>
+            <returns>IO</returns>
+        </member>
+        <member name="M:ReactivePrism.InteractionRequestExtensions.RaiseAsync``1(Microsoft.Practices.Prism.Interactivity.InteractionRequest.InteractionRequest{``0},``0)">
+            <summary>
+            Convert Raise event into Task.
+            </summary>
+            <typeparam name="T">INotification object</typeparam>
+            <param name="self">InteractinRequest</param>
+            <param name="context">INotification object</param>
+            <returns>Task</returns>
+        </member>
+        <member name="T:ReactivePrism.ConfirmationTriggerAction">
+            <summary>
+            Confirmation Action.
+            </summary>
+        </member>
+        <member name="T:ReactivePrism.FlyoutIsOpenBehavior">
+            <summary>
+            Flyout MVVM support behavior.
+            </summary>
+        </member>
+        <member name="P:ReactivePrism.FlyoutIsOpenBehavior.Flyout">
+            <summary> 
+            Target Flyout. 
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.FlyoutIsOpenBehavior.Parent">
+            <summary> 
+            Flyout's parent 
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.FlyoutIsOpenBehavior.IsOpen">
+            <summary> 
+            Flyout open status. 
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.FlyoutIsOpenBehavior.OpenedCommand">
+            <summary> 
+            Flyout opened command.
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.FlyoutIsOpenBehavior.ClosedCommand">
+            <summary> 
+            Flyout closed command. 
+            </summary> 
+        </member>
+        <member name="T:ReactivePrism.InteractionRequestTrigger">
+            <summary>
+            InteractionRequest's Raised event trigger.
+            </summary>
+        </member>
+        <member name="P:ReactivePrism.InteractionRequestTrigger.SourceObject">
+            <summary>
+            Binding InteractionRequest object.
+            </summary>
+        </member>
+        <member name="T:ReactivePrism.NotificationTriggerAction">
+            <summary>
+            Notification trigger action.
+            </summary>
+        </member>
+        <member name="T:ReactivePrism.SettingsFlyoutIsOpenBehavior">
+            <summary> 
+            SettingsFlyout MVVM support behavior. 
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.SettingsFlyoutIsOpenBehavior.IsOpen">
+            <summary> 
+            get and set is open SettingsFlyout.  
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.SettingsFlyoutIsOpenBehavior.SettingsFlyout">
+            <summary> 
+            get and set target SettingsFlyout
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.SettingsFlyoutIsOpenBehavior.IsIndependent">
+            <summary> 
+            get and set use ShowIndependent method 
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.SettingsFlyoutIsOpenBehavior.OpenedCommand">
+            <summary> 
+            get and set executed command when SettingsFlyout opened. 
+            </summary> 
+        </member>
+        <member name="P:ReactivePrism.SettingsFlyoutIsOpenBehavior.ClosedCommand">
+            <summary> 
+            get and set executed command when SettingsFlyout closed. 
+            </summary> 
+        </member>
+    </members>
+</doc>

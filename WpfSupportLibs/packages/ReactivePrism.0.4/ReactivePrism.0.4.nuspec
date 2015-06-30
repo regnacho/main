@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ReactivePrism</id>
+    <version>0.4</version>
+    <title>ReactivePrism</title>
+    <authors>okazuki</authors>
+    <owners>okazuki</owners>
+    <licenseUrl>https://github.com/runceel/ReactivePrism/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/runceel/ReactivePrism</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ReactivePrism is ReactiveProperty + Prism + InteractionRequestExtensions class. InteractionRequestExtensions convert InteractionRequest into IObservable.</description>
+    <language>en-US</language>
+    <tags>rx mvvm async rx-main prism</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="ReactiveProperty" version="1.0" />
+        <dependency id="Prism" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="ReactiveProperty" version="1.0" />
+        <dependency id="Prism.StoreApps" version="2.0" />
+      </group>
+      <group targetFramework="Windows8.1">
+        <dependency id="ReactiveProperty" version="1.0" />
+        <dependency id="Prism.StoreApps" version="2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

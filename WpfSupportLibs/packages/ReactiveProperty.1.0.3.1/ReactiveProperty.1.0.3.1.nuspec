@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ReactiveProperty</id>
+    <version>1.0.3.1</version>
+    <title>ReactiveProperty</title>
+    <authors>neuecc xin9le okazuki</authors>
+    <owners>neuecc xin9le okazuki</owners>
+    <licenseUrl>https://github.com/runceel/ReactiveProperty/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/runceel/ReactiveProperty</projectUrl>
+    <iconUrl>http://neue.cc/ReactivePropertyIcon_100x100.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ReactiveProperty is MVVM and Asynchronous Extensions for Reactive Extensions(Rx-Main). Target is .NET 4, WP8, Windows store apps(Win8.1), Windows Phone 8.1.</description>
+    <releaseNotes />
+    <copyright />
+    <language>en-US</language>
+    <tags>rx mvvm async rx-main</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Rx-Main" version="2.2.5" />
+        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+        <dependency id="Microsoft.Bcl" version="1.1.9" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Rx-Main" version="2.2.5" />
+      </group>
+      <group targetFramework="WindowsPhone8.0">
+        <dependency id="Rx-Main" version="2.2.5" />
+        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+        <dependency id="Microsoft.Bcl" version="1.1.9" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Rx-Main" version="2.2.5" />
+      </group>
+      <group targetFramework="Windows8.1">
+        <dependency id="Rx-Main" version="2.2.5" />
+      </group>
+      <group targetFramework="MonoAndroid0.0">
+        <dependency id="Rx-Main" version="2.2.5" />
+      </group>
+      <group targetFramework="MonoTouch0.0">
+        <dependency id="Rx-Main" version="2.2.5" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="PresentationCore" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="WindowsBase" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="PresentationFramework" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Xaml" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
